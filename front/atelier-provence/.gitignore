@@ -1,24 +1,37 @@
-# Logs
-logs
-*.log
+# node_modules : dépendances installées par npm
+/node_modules/
+
+# build output (par Vite ou autres outils de build)
+/dist/
+/build/
+
+# fichiers de logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# cache de Vite
+/.vite/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# cache de TypeScript
+/*.tsbuildinfo
+
+# fichiers de config utilisateurs
+.env.local
+.env.*.local
+
+# sortie des tests (si tu utilises Jest ou d'autres outils)
+/coverage/
+
+# IDEs
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+# système
+.DS_Store
+Thumbs.db
