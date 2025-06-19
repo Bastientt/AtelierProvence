@@ -58,7 +58,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ scrollToSection }) => (
   <Section>
-    <Title>Trucs artisanales du Sud de la France</Title>
+    <Title>TEST CI MON CUL  artisanales du Sud de la France</Title>
     <Subtitle>
       Chaque pièce raconte une histoire, façonnée avec passion selon les traditions provençales.
     </Subtitle>
